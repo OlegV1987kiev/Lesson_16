@@ -1,0 +1,13 @@
+
+
+<suite name="TestAll">
+
+
+
+    <test name="verifyHomepageTitle">
+        <classes>
+
+        </classes>
+    </test>
+
+</suite>
