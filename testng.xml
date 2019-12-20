@@ -8,6 +8,7 @@
                 <methods>
                     <include name="Registration"/>
                     <include name="RegistrationByEmail"/>
+                    <include name = "LoginParameters"/>
                 </methods>
 
 
