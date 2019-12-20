@@ -1,13 +1,17 @@
-
-
-<suite name="TestAll">
-
-
-
-    <test name="verifyHomepageTitle">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/Lesson_16">
         <classes>
+            <class name="Lesson_16_1"/>
+            <class name="Lesson_16_2">
+                <methods>
+                    <include name="Registration"/>
+                    <include name="RegistrationByEmail"/>
+                </methods>
 
+
+            </class>
         </classes>
     </test>
-
 </suite>
